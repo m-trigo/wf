@@ -7,9 +7,7 @@ function onClick(event) {
 
 if (document.addEventListener) {
     document.addEventListener('click', onClick, false);
-
 }
 else {
     document.attachEvent('onclick', onClick);
-
 }
